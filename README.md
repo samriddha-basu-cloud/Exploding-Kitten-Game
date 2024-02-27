@@ -13,19 +13,23 @@ Welcome to the Exploding Kittens card game! This is an online single-player card
 
 ## Screenshots
 
-  <img src="Screenshots/welcomePage.png" alt="welcomePage" style="height: 130px;">
-  <img src="Screenshots/game1.png" alt="gameScreenshot1" style="height: 130px;">
-  <img src="Screenshots/game2.png" alt="gameScreenshot1" style="height: 130px;">
-  <img src="Screenshots/game3.png" alt="gameScreenshot1" style="height: 130px;">
-  <img src="Screenshots/game4.png" alt="gameScreenshot1" style="height: 130px;">
-  <img src="Screenshots/game5.png" alt="gameScreenshot1" style="height: 130px;">
-  <img src="Screenshots/game6.png" alt="gameScreenshot1" style="height: 130px;">
-  <img src="Screenshots/leaderboard.png" alt="Leaderboard" style="height: 130px;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <img src="Screenshots/welcomePage.png" alt="welcomePage" style="height: 130px; padding: 10px;">
+    <img src="Screenshots/game1.png" alt="gameScreenshot1" style="height: 130px; padding: 10px;">
+    <img src="Screenshots/game2.png" alt="gameScreenshot1" style="height: 130px; padding: 10px;">
+    <img src="Screenshots/game3.png" alt="gameScreenshot1" style="height: 130px; padding: 10px;">
+    <img src="Screenshots/game4.png" alt="gameScreenshot1" style="height: 130px; padding: 10px;">
+    <img src="Screenshots/game5.png" alt="gameScreenshot1" style="height: 130px; padding: 10px;">
+    <img src="Screenshots/game6.png" alt="gameScreenshot1" style="height: 130px; padding: 10px;">
+    <img src="Screenshots/leaderboard.png" alt="Leaderboard" style="height: 130px; padding: 10px;">
+  </div>
+
+
 
 ## Working
 
   <video controls height="130">
-  <source src="Screenshots/gameFilm.mov" type="video/quicktime">
+  <source src="Screenshots/gameFilm.mp4" type="video/quicktime">
     Sorry! Your browser does not support the video tag.
   </video>
 
