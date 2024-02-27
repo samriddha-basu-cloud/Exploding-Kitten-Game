@@ -8,7 +8,7 @@
 ![Gorilla Mux](https://img.shields.io/badge/-Gorilla%20Mux-00ADD8?logo=go&logoColor=white)
 
 Welcome to the Exploding Kittens card game! This is an online single-player card game where you try to draw cards from a deck without exploding kittens blowing up in your face. Let's dive into how the game works and how you can access it locally.
-(Note: Frontend of the game is in different repository link:  https://github.com/samriddha-basu-cloud/Exploding-Kitten-Game_Frontend.git)
+
 ## How the Game Works
 
 ### Rules:
