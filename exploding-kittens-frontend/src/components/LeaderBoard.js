@@ -61,7 +61,7 @@ function LeaderBoard() {
           type="button"
           onClick={handleNewGame}
           style={{
-            backgroundColor: 'red',
+            backgroundColor: '#10B881',
             color: 'white',
             padding: '10px 20px',
             border: 'none',
