@@ -28,6 +28,39 @@ Welcome to the Exploding Kittens card game! This is an online single-player card
 
 ## Accessing the Game Locally
 
+### File Directory of the Game
+```
+   |--exploding-kitten-frontend
+   |   |-- node_modules/
+   |   |-- public/
+   |   |   |-- index.html
+   |   |   |-- favicon.ico
+   |   |   |-- manifest.json
+   |   |-- src/
+   |   |   |-- components/
+   |   |   |   |-- CardBlock.js
+   |   |   |   |-- LeaderBoard.js
+   |   |   |   |--NameForm.js
+   |   |   |   |-- Navbar.js
+   |   |   |   |-- Toast.js
+   |   |   |-- assets/
+   |   |   |   |-- cat1.png
+   |   |   |   |-- cat2.png
+   |   |   |   |-- cat3.png
+   |   |   |   |-- cat4.png
+   |   |   |-- App.js
+   |   |   |-- App.css
+   |   |   |-- index.js
+   |   |   |-- index.css
+   |   |-- package.json
+   |   |-- package-lock.json
+   |   |-- README.md
+   |--exploding-kitten-backend
+   |   |--go.mod
+   |   |--go.sum
+   |   |--main.go
+```
+
 ### For Node.js (React Frontend):
 1. Install dependencies: `npm install`
 2. Start the frontend server: `npm start`
