@@ -7,7 +7,28 @@
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white)
 ![Gorilla Mux](https://img.shields.io/badge/-Gorilla%20Mux-00ADD8?logo=go&logoColor=white)
 
+
+
 Welcome to the Exploding Kittens card game! This is an online single-player card game where you try to draw cards from a deck without exploding kittens blowing up in your face. Let's dive into how the game works and how you can access it locally.
+
+## Screenshots
+
+  <img src="Screenshots/welcomePage.png" alt="welcomePage" style="height: 130px;">
+  <img src="Screenshots/game1.png" alt="gameScreenshot1" style="height: 130px;">
+  <img src="Screenshots/game2.png" alt="gameScreenshot1" style="height: 130px;">
+  <img src="Screenshots/game3.png" alt="gameScreenshot1" style="height: 130px;">
+  <img src="Screenshots/game4.png" alt="gameScreenshot1" style="height: 130px;">
+  <img src="Screenshots/game5.png" alt="gameScreenshot1" style="height: 130px;">
+  <img src="Screenshots/game6.png" alt="gameScreenshot1" style="height: 130px;">
+  <img src="Screenshots/leaderboard.png" alt="Leaderboard" style="height: 130px;">
+
+## Working
+
+  <video controls height="130">
+  <source src="Screenshots/gameFilm.mov" type="video/quicktime">
+    Sorry! Your browser does not support the video tag.
+  </video>
+
 
 ## How the Game Works
 
@@ -17,6 +38,15 @@ Welcome to the Exploding Kittens card game! This is an online single-player card
   - 🙅‍♂️ **Defuse Card**: Used to defuse an exploding kitten.
   - 🔀 **Shuffle Card**: Shuffles the deck and resets the game.
   - 💣 **Exploding Kitten Card**: Instant game over if drawn.
+
+
+    <img src="exploding-kittens-frontend/src/assets/cat1.png" alt="cat1" style="height: 130px;">
+    <img src="exploding-kittens-frontend/src/assets/cat2.png" alt="cat2" style="height: 130px;">
+    <img src="exploding-kittens-frontend/src/assets/cat3.png" alt="cat3" style="height: 130px;">
+    <img src="exploding-kittens-frontend/src/assets/cat4.png" alt="cat4" style="height: 130px;">
+
+
+
 
 - **Gameplay:**
   - Clicking on the deck reveals a card.
