@@ -31,8 +31,8 @@ function NameForm({ onNameSubmit }) {
         placeholder="Enter Your Name"
         style={{
           backgroundColor: 'transparent',
-          border: '1px solid red',
-          color: 'red',
+          border: '1px solid #10B881',
+          color: '#10B881',
           padding: '8px',
           borderRadius: '5px',
           marginBottom: '10px',
@@ -44,7 +44,7 @@ function NameForm({ onNameSubmit }) {
       <button
         type="submit"
         style={{
-          backgroundColor: 'red',
+          backgroundColor: '#10B881',
           color: 'white',
           padding: '10px 20px',
           border: 'none',
@@ -56,7 +56,7 @@ function NameForm({ onNameSubmit }) {
       >
         Game on
       </button>
-      {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+      {errorMessage && <p style={{ color: '#10B881' }}>{errorMessage}</p>}
     </form>
   );
 }
