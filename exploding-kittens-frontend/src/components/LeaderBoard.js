@@ -23,6 +23,10 @@ function LeaderBoard({ userName, points }) {
       .catch(error => console.error('Error fetching leaderboard data:', error));
   };
 
+  const handleNewGame = () => {
+    window.location.reload();
+  };
+
   return (
     <div className="leaderboard-container">
       <h2>Leader Board</h2>
@@ -51,6 +55,26 @@ function LeaderBoard({ userName, points }) {
           )}
         </tbody>
       </table>
+
+      <div style={{ textAlign: 'center' }}>
+        <button
+          type="button"
+          onClick={handleNewGame}
+          style={{
+            backgroundColor: '#10B881',
+            color: 'white',
+            padding: '10px 20px',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer',
+            fontSize: '16px',
+            fontWeight: 'bolder',
+            marginTop: '20px'
+          }}
+        >
+          New Game
+        </button>
+      </div>
     </div>
   );
 }
